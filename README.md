@@ -1,3 +1,4 @@
+
 # Mimic Google Docs - Spreadsheet Application
 
 ## Description
@@ -13,12 +14,51 @@ This is a React-based application that mimics Google Sheets functionality. It su
 4. Save, load, and export spreadsheets to CSV.
 5. Formula bar to evaluate simple formulas (e.g., A1+B1).
 
- ## How to Run the Project
-# Prerequisites
+## How to Run the Project
+
+### Prerequisites
 - Node.js and npm installed on your system.
 - Git installed on your system.
-# Frontend (React)
+
+### Frontend (React)
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/<repo-name>.git
    cd mimic-google-docs
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+
+### Backend 
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the backend server:
+   ```bash
+   npm start
+   ```
+
+### Testing
+To run the tests:
+```bash
+npm test
+```
+
+### Deployment
+To build the app for production:
+```bash
+npm run build
+```
+This will generate a `build/` directory for deployment.
+
